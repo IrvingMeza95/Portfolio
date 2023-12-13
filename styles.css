@@ -5,6 +5,14 @@ body{
     overflow: hidden;
 }
 
+p{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
 .index{
     width: 30%;
     height: 100%;
@@ -189,7 +197,7 @@ span:nth-child(9){
 /* RESPONSIVE */
 @media (max-width: 1000px){
     body{
-        overflow: auto;
+        overflow: scroll;
     }
     main{
         flex-direction: column;
@@ -197,23 +205,36 @@ span:nth-child(9){
     .index{
         width: 100%;
     }
+    .nav-link{
+        text-align: center;
+    }
     .content{
         width: 100%;
     }
     .pp-name-container{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+    }
+    .social-media-logo{
+        width: 25px;
+        height: 25px;
     }
     #name-container{
         width: 100%;
     }
-    #pp{
-        width: 80px;
-        height: 80px;
-    }
     #navbar-example3{
         margin-right: 80px;
         margin-left: 80px;
+    }
+    #name{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    #navbar-example3{
+        margin-right: 40px;
+        margin-left: 40px;
     }
 }
