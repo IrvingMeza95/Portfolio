@@ -43,6 +43,13 @@ body{
     height: 100px;
 }
 
+#experience-period{
+    width: 25%;
+}
+#experience-description{
+    width: 75%;
+}
+
 /* Animacion de imagen de perfil */
 
 .rotate {
@@ -247,6 +254,19 @@ span:nth-child(9){
     }
     #name{
         width: 100%;
+    }
+    #experience-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #experience-period{
+        width: 100%;
+    }
+    #experience-description{
+        width: 100%;
+    }
+    #exp-period{
+        text-align: center;
     }
 }
 
