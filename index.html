@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Irving Meza</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -10,16 +9,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link href="/styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
     />
-    <style>
-      body {
-        font-family: "Audiowide", sans-serif;
-      }
-    </style>
+    <link href="/styles.css" rel="stylesheet" />
   </head>
   <body>
     <section>
@@ -35,13 +29,13 @@
       <span></span>
     </section>
 
-    <main class="d-flex justify-content-center p-4">
+    <main class="d-flex justify-content-center p-3">
       <div class="index">
         <div class="d-flex flex-column gap-5">
           <div class="gap-3">
             <div class="pp-name-container">
-              <div class="d-flex justify-content-evenly gap-3">
-                <div class="d-flex justify-content-center w-25">
+              <div id="pp-name-profesion" class="d-flex justify-content-evenly gap-3">
+                <div id="pp-container" class="d-flex justify-content-center w-25">
                   <img
                     id="pp"
                     src="/resources/img/PP.jpg"
@@ -60,68 +54,73 @@
             </div>
           </div>
 
-          <nav
-            id="navbar-example3"
-            class="h-100 flex-column align-items-stretch pe-4"
-          >
-            <nav class="nav nav-pills flex-column">
-              <a class="nav-link" href="#item-1">Acerca de mí</a>
+          <div class="">
+            <nav
+              id="navbar-example3"
+              class="h-100 flex-column align-items-stretch pe-4"
+            >
               <nav class="nav nav-pills flex-column">
-                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-              </nav>
-              <a class="nav-link" href="#item-2">Experiencia</a>
-              <a class="nav-link" href="#item-3">Proyectos</a>
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                <a class="nav-link" href="#item-1">Acerca de mí</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                </nav>
+                <a class="nav-link" href="#item-2">Experiencia</a>
+                <a class="nav-link" href="#item-3">Proyectos</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ms-3 my-1" href="#item-3-1"
+                    >Prohomesolutions</a
+                  >
+                </nav>
               </nav>
             </nav>
-          </nav>
+          </div>
 
-          <div class="d-flex justify-content-center gap-3 mb-3">
-            <a
-              href="https://www.linkedin.com/in/irving-meza/"
-              class="social-media-link"
-            >
-              <img
-                title="Linkdin"
-                src="/resources/img/Linkdin logo.png"
-                class="social-media-logo"
-              />
-            </a>
-            <a
-              href="https://github.com/IrvingMeza95?tab=repositories"
-              class="social-media-link"
-            >
-              <img
-                title="Github"
-                src="/resources/img/Github logo.png"
-                class="social-media-logo"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/irving_m95/"
-              class="social-media-link"
-            >
-              <img
-                title="Instagram"
-                src="/resources/img/Instagram logo.png"
-                class="social-media-logo"
-              />
-            </a>
-            <a href="https://twitter.com/M95Irving" class="social-media-link">
-              <img
-                title="X"
-                src="/resources/img/Twitter logo.png"
-                class="social-media-logo"
-              />
-            </a>
+          <div class="">
+            <div class="d-flex justify-content-center gap-3 mb-3">
+              <a
+                href="https://www.linkedin.com/in/irving-meza/"
+                class="social-media-link"
+              >
+                <img
+                  title="Linkdin"
+                  src="/resources/img/Linkdin logo.png"
+                  class="social-media-logo"
+                />
+              </a>
+              <a
+                href="https://github.com/IrvingMeza95?tab=repositories"
+                class="social-media-link"
+              >
+                <img
+                  title="Github"
+                  src="/resources/img/Github logo.png"
+                  class="social-media-logo"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/irving_m95/"
+                class="social-media-link"
+              >
+                <img
+                  title="Instagram"
+                  src="/resources/img/Instagram logo.png"
+                  class="social-media-logo"
+                />
+              </a>
+              <a href="https://twitter.com/M95Irving" class="social-media-link">
+                <img
+                  title="X"
+                  src="/resources/img/Twitter logo.png"
+                  class="social-media-logo"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="content">
+      <div class="content mb-3">
         <div
           data-bs-spy="scroll"
           data-bs-target="#navbar-example3"
@@ -166,31 +165,27 @@
             </p>
           </div>
           <div id="item-3" class="sec">
-            <h4 class="subtitle">Item 3</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio blanditiis ipsum quam labore quibusdam, corporis quo
-              est. Neque inventore vel est quisquam repellat voluptatem id
-              veniam blanditiis quo. Similique, possimus.
-            </p>
+            <h4 class="subtitle">Proyectos</h4>
           </div>
-          <div id="item-3-1">
-            <h5 class="subtitle">Item 3-1</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto magni eius alias nihil numquam commodi voluptatem
-              explicabo magnam. Minima reiciendis impedit distinctio tenetur
-              veritatis quae aliquid ratione, quasi ipsum quia.
-            </p>
-          </div>
-          <div id="item-3-2">
-            <h5 class="subtitle">Item 3-2</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              totam adipisci sapiente quos, assumenda blanditiis, quaerat facere
-              repellat doloremque accusantium asperiores sint necessitatibus
-              velit saepe aperiam, at unde tenetur et.
-            </p>
+          <div
+            id="item-3-1"
+            class="sec d-flex justify-content-center align-items-center gap-3 project-container"
+          >
+            <a href="https://www.youtube.com/watch?v=wGlxw6-mgNs" class="">
+              <img
+                src="/resources/img/Miniatura youtube.jpg"
+                class="miniatura-video border rounded-2"
+                alt="Video"
+              />
+            </a>
+            <div class="">
+              <h5 class="card-title mb-2">Prohomesolutions</h5>
+              <p>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
           </div>
         </div>
       </div>

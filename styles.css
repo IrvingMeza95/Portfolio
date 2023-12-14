@@ -1,12 +1,9 @@
 body{
+    font-family: "Audiowide", sans-serif;
     background: rgb(44,40,104);
     background: linear-gradient(90deg, rgba(44,40,104,1) 0%, rgba(4,0,12,1) 30%);
     color: #F5C21B;
     overflow: hidden;
-}
-
-p{
-    text-align: center;
 }
 
 .subtitle{
@@ -15,23 +12,30 @@ p{
 }
 
 .index{
-    width: 30%;
+    width: 35%;
     height: 100%;
 }
 
 .content{
-    width: 70%;
+    width: 65%;
     height: 100%;
 }
 
 .scrollspy-example-2{
     overflow: auto;
-    height: 80vh;
+    height: 100vh;
 }
 
 .sec{
     padding: 10px;
     width: 85%;
+}
+
+.miniatura-video{
+    width: 150px;
+    height: 95px;
+    border-style: solid;
+    border-color: wheat;
 }
 
 #pp{
@@ -203,6 +207,9 @@ span:nth-child(9){
     main{
         flex-direction: column;
     }
+    p{
+        text-align: justify;
+    }
     .index{
         width: 100%;
     }
@@ -212,6 +219,9 @@ span:nth-child(9){
     .content{
         width: 100%;
     }
+    .project-container{
+        flex-direction: column;
+    }
     .pp-name-container{
         display: flex;
         justify-content: center;
@@ -220,6 +230,13 @@ span:nth-child(9){
     .social-media-logo{
         width: 25px;
         height: 25px;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .miniatura-video{
+        width: 200px;
+        height: 130px;
     }
     #name-container{
         width: 100%;
