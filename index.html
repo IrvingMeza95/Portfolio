@@ -15,9 +15,11 @@
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
     />
     <link href="/styles.css" rel="stylesheet" />
+    <link href="/animations.css" rel="stylesheet" />
+
   </head>
   <body>
-    <section>
+    <!-- <section>
       <span></span>
       <span></span>
       <span></span>
@@ -28,7 +30,8 @@
       <span></span>
       <span></span>
       <span></span>
-    </section>
+    </section> -->
+
     <main class="d-flex justify-content-center p-3">
       <div class="index">
         <div class="d-flex flex-column gap-5">
@@ -40,7 +43,7 @@
               >
                 <div
                   id="pp-container"
-                  class="d-flex justify-content-center w-25"
+                  class="d-flex justify-content-center"
                 >
                   <img
                     id="pp"
@@ -51,7 +54,7 @@
                 </div>
                 <div
                   id="name-continer"
-                  class="d-flex flex-column justify-content-center align-items-start w-75"
+                  class="d-flex flex-column justify-content-center align-items-start"
                 >
                   <h1 id="name" class="text-center">Irving Meza</h1>
                   <h5 class="text-center">Full stack web developer.</h5>
@@ -60,69 +63,90 @@
             </div>
           </div>
 
-          <div class="">
-            <nav
-              id="navbar-example3"
-              class="h-100 flex-column align-items-stretch pe-4"
+          <nav class="navbar  navbar-expand-lg mb-3">
+            <button
+              class="navbar-toggler navbar-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#item-1">Acerca de mí</a>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-                  <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <div class="container-fluid">
+                <nav
+                  id="navbar-example3"
+                  class="h-100 flex-column align-items-stretch pe-4"
+                >
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">Acerca de mí</a>
+                    <nav class="nav nav-pills flex-column">
+                      <a class="nav-link ms-3 my-1" href="#item-1-1"
+                        >Habilidades y competencias</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-2"
+                        >Formación complementaria</a
+                      >
+                    </nav>
+                    <a class="nav-link" href="#item-2">Experiencia</a>
+                    <a class="nav-link" href="#item-3">Proyectos</a>
+                    <nav class="nav nav-pills flex-column">
+                      <a class="nav-link ms-3 my-1" href="#item-3-1"
+                        >Prohomesolutions</a
+                      >
+                    </nav>
+                  </nav>
                 </nav>
-                <a class="nav-link" href="#item-2">Experiencia</a>
-                <a class="nav-link" href="#item-3">Proyectos</a>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link ms-3 my-1" href="#item-3-1"
-                    >Prohomesolutions</a
-                  >
-                </nav>
-              </nav>
-            </nav>
-          </div>
-
-          <div class="">
-            <div class="d-flex justify-content-center gap-3 mb-3">
-              <a
-                href="https://www.linkedin.com/in/irving-meza/"
-                class="social-media-link"
-              >
-                <img
-                  title="Linkdin"
-                  src="/resources/img/Linkdin logo.png"
-                  class="social-media-logo"
-                />
-              </a>
-              <a
-                href="https://github.com/IrvingMeza95?tab=repositories"
-                class="social-media-link"
-              >
-                <img
-                  title="Github"
-                  src="/resources/img/Github logo.png"
-                  class="social-media-logo"
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/irving_m95/"
-                class="social-media-link"
-              >
-                <img
-                  title="Instagram"
-                  src="/resources/img/Instagram logo.png"
-                  class="social-media-logo"
-                />
-              </a>
-              <a href="https://twitter.com/M95Irving" class="social-media-link">
-                <img
-                  title="X"
-                  src="/resources/img/Twitter logo.png"
-                  class="social-media-logo"
-                />
-              </a>
+                <div class="p-3">
+                  <div class="d-flex justify-content-center gap-3 mb-3">
+                    <a
+                      href="https://www.linkedin.com/in/irving-meza/"
+                      class="social-media-link"
+                    >
+                      <img
+                        title="Linkdin"
+                        src="/resources/img/Linkdin logo.png"
+                        class="social-media-logo"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/IrvingMeza95?tab=repositories"
+                      class="social-media-link"
+                    >
+                      <img
+                        title="Github"
+                        src="/resources/img/Github logo.png"
+                        class="social-media-logo"
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/irving_m95/"
+                      class="social-media-link"
+                    >
+                      <img
+                        title="Instagram"
+                        src="/resources/img/Instagram logo.png"
+                        class="social-media-logo"
+                      />
+                    </a>
+                    <a
+                      href="https://twitter.com/M95Irving"
+                      class="social-media-link"
+                    >
+                      <img
+                        title="X"
+                        src="/resources/img/Twitter logo.png"
+                        class="social-media-logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
 
@@ -135,53 +159,114 @@
           tabindex="0"
         >
           <div id="item-1" class="sec">
-            <h5 class="subtitle">Item 1</h5>
+            <h4 class="subtitle">Acerca de mí</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quis
-              perspiciatis quaerat reprehenderit nesciunt, odit ducimus amet
-              repellat expedita! Voluptatum incidunt numquam sit dicta veniam
-              sequi ipsa, qui quas ratione!
+              Inicié mi carrera profesional en mi semestre de tesis en donde
+              desarrollé un proyecto para la empresa Sangar Financiera SOFOM ENR
+              con el que se buscaría diseñar herramientas tecnológicas y
+              metodológicas para una mejor y más eficiente gestión de cartera de
+              clientes y de sus creditos.
+            </p>
+            <p>
+              Al concluir satisfactoriamente el proyecto, la empresa me ofreció
+              la oportunidad en un puesto como promotor y asesor crediticio para
+              nuevos clientes. Desempeñé dicho cargo por 6 meses hasta que me
+              promovieron como administrador general de cartera.
+            </p>
+            <p>
+              Como administrador de cartera, mis responsabilidades van desde
+              trato con clientes para trámites y solicitudes de nuevos préstamos
+              o dudas acerca de sus cuentas, alta y gestión de créditos en base
+              de datos, elaboración de distintos reportes de cartera para
+              contabilidad interna y de cumplimiento ante las entidades
+              regulatorias, entre otras.
+            </p>
+            <p>
+              Como desarrollador, mi experiencia viene desde las herramientas
+              tecnológicas que se crearon en la tesis con las que se pudieron
+              automatizar tareas cotidianas y facilitar otras más mediante la
+              creación de macros y aplicaciones más complejas.
+            </p>
+            <p>
+              Adicional a esto, estudié otros lenguajes de programación siendo
+              Java en conjunto con el ORM de Hibernate, JPA y Spring Framework
+              con los que más experiencia tengo y con los que he llegado a ser
+              líder técnico en un equipo de trabajo académico para el desarrollo
+              de una aplicación de servicios usando la metodología SCRUM para la
+              gestión de proyectos.
+            </p>
+            <p>
+              Como extra, estudié y realicé prácticas de seguridad web con
+              Spring security mediante tokens encriptados con la información de
+              inicio de sesión de los clientes asi como contraseñas encriptadas
+              en bases de datos para mayor seguridad.
             </p>
           </div>
           <div id="item-1-1" class="sec">
-            <h5 class="subtitle">Item 1-1</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              asperiores facere velit consectetur dignissimos unde repellendus
-              similique commodi corporis pariatur sit aliquid consequatur
-              recusandae, saepe veritatis maiores hic, reprehenderit voluptate.
-            </p>
+            <h5 class="subtitle">Habilidades y competencias</h5>
+            <ul>
+              <li>
+                Habilidades blandas | Adaptabilidad, integridad, colaborativo,
+                comunicativo, empático, creativo, mente abierta, pensamiento
+                crítico.
+              </li>
+              <li>MySQL | Internedio</li>
+              <li>Java | Intermedio</li>
+              <li>HTML, JS, CSS | Internedio</li>
+              <li>
+                Spring Framework: Web, Hibernate, JPA, Thymeleaf, Security, JWT
+              </li>
+              <li>React | basico</li>
+              <li>Github | Intermedio</li>
+              <li>Metodologia SCRUM</li>
+              <li>
+                Desarrollo de Restfull API y aplicaciones monoliticas con spring
+                framework.
+              </li>
+              <li>Ingles | Intermedio</li>
+            </ul>
           </div>
           <div id="item-1-2" class="sec">
-            <h5 class="subtitle">Item 1-2</h5>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque laborum esse nihil, id distinctio magni, libero hic ab,
-              magnam corrupti ipsum perspiciatis eius! Explicabo error aut
-              assumenda facilis unde cupiditate.
-            </p>
+            <h5 class="subtitle">Formación complementaria</h5>
+            <ul>
+              <li>
+                Talleres y Diplomados | Diplomado avanzado de English as a
+                Second Lenguaje en la Universidad Del Estado De Virginia Del
+                Oeste en los Estados Unidos De América.
+              </li>
+              <li>
+                Talleres y Diplomados | Programación desde cero: diplomado en
+                donde te ayudan a desarrollar el pensamiento lógico matemático
+                detrás de la programación.
+              </li>
+              <li>
+                Talleres y diplomados | Carrera en programación web Full Stack
+                en donde estoy reforzando la metodología completa de desarrollo
+                de software desde el frontend hasta el backend con lenguajes
+                como: MySQL para bases de datos, HTML, Javascript, CSS,
+                Boostrap, React.js, JDBC, JPA, Java-spring y Thymeleaf.
+              </li>
+            </ul>
           </div>
           <div id="item-2" class="sec">
             <h4 class="subtitle">Experiencia</h4>
           </div>
-          <div class="sec">
-            <div
+          <div
             id="experience-container"
-            class="d-flex justify-content-center align-items-start gap-2"
+            class="sec d-flex justify-content-center align-items-start gap-2"
           >
             <div id="experience-period">
               <h6 id="exp-period">Sept. 2018 – Actual</h6>
             </div>
             <div id="experience-description">
-              <p class="">
+              <p>
                 Administrador de cartera de créditos en Sangar Financiera SOFOM
-                ENR: Encargado del constante seguimiento a todo préstamo activo
-                de nuestra cartera y que se le esté dando movimiento a cada
-                cuenta para prevenir en lo posible los creditos impagables por
-                acumulación de moras
+                ENR: Responsable de la correcta administración de cartera de
+                clientes y sus cuentas así como de generar y enviar los reportes
+                necesarios para la contabilidad interna y de reporte a las
+                instituciones regulatorias correspondientes.
               </p>
             </div>
-          </div>
           </div>
           <div id="item-3" class="sec">
             <h4 class="subtitle">Proyectos</h4>
