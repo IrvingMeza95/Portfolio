@@ -31,7 +31,7 @@ h4{
 
 .scrollspy-example-2{
     overflow: auto;
-    height: 90vh;
+    height: 85vh;
 }
 
 .sec{
@@ -104,10 +104,6 @@ h4{
         justify-content: center;
         align-items: center;
     }
-    .social-media-logo{
-        width: 25px;
-        height: 25px;
-    }
     .card-title{
         text-align: center;
     }
@@ -115,7 +111,6 @@ h4{
         width: 200px;
         height: 130px;
     }
-
     #name-container{
         width: 100%;
     }
